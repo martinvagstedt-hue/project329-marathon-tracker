@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b1220" /><meta name="description" content="Project 3:29 – din privata träningsdagbok inför Stockholm Marathon 2027."/>
+<link rel="manifest" href="manifest.webmanifest"/><link rel="icon" type="image/png" href="icon192.png"/>
+<link rel="apple-touch-icon" href="icon192.png"/>
+<title>Project 3:29 – Marathon Tracker</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="seed.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<div class="app-shell">
+<header class="header">
+  <div class="brand"><div class="brand-mark">329<span>↗</span></div><div><div class="eyebrow">STOCKHOLM MARATHON 2027</div><h1>PROJECT 3:29</h1></div></div>
+  <div class="race-pill">29 MAJ <span>2027</span></div>
+</header>
+<main id="view"></main>
+<nav class="bottom-nav" aria-label="Huvudmeny">
+  <button type="button" data-tab="today" class="nav active"><span class="nav-ico" aria-hidden="true">⌂</span><span>Idag</span></button>
+  <button type="button" data-tab="schedule" class="nav"><span class="nav-ico" aria-hidden="true">▦</span><span>Schema</span></button>
+  <button type="button" data-tab="review" class="nav"><span class="nav-ico" aria-hidden="true">◴</span><span>Veckocheck</span></button>
+  <button type="button" data-tab="settings" class="nav"><span class="nav-ico" aria-hidden="true">⚙︎</span><span>Mer</span></button>
+</nav>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

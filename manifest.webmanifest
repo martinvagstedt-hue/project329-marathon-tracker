@@ -1,0 +1,16 @@
+{
+  "name": "Project 3:29 – Marathon Tracker",
+  "short_name": "Project 3:29",
+  "description": "Dag-för-dag-schema, prehab och veckocheck inför Stockholm Marathon 2027.",
+  "lang": "sv",
+  "id": "./index.html",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    {"src":"icon192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
